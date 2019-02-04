@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Special+Elite|Luckiest+Guy|Questrial" rel="stylesheet">
+	<script 
+		src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body>
+
+	<!-- --- -->
+	<!-- NAV -->
+	<!-- --- -->
+
+	<nav class="navbar is-warning is-fixed-top" role="navigation" aria-label="main navigation" style="font-family: 'Special Elite', cursive;">
+		<div class="navbar-brand">
+			<a class="navbar-item " href="index.html">
+				<figure class="image is-32x32">
+					<img src="https://img.icons8.com/ios/50/000000/angularjs-filled.png">
+				</figure>
+				<p style="font-family: 'Luckiest Guy', cursive; font-size: 25px; color: white;">Developer</p>
+				<p style="font-size: 23px">Corey Cushnie</p>
+			</a>
+			<a class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenuItems">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>	
+			</a>
+		</div>
+		<div id="navMenuItems" class="navbar-menu has-background-warning">
+			<div class="navbar-end">
+				<a class="navbar-item" href="index.html" >Home</a>					
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<section id="top" class="hero is-dark is-fullheight with-navbar " style="font-family: 'Questrial', sans-serif;">
+		<div class="hero-body">
+			<div class="container is-fluid has-text-centered">
+				<div class="columns">
+					<div class="column">
+						<article class="article">
+							<h1 class="title is-5">
+								Let's connect! <br>Shoot me and email.
+							</h1>
+
+
+						</article>
+					</div>
+				</div>
+				<div class="columns">
+					<div class="column is-4 is-offset-4">
+						<article class="artcle">
+							<h1 class="box has-text-left subtitle has-background-black has-text-white">
+								<div class="field ">
+									<label class="label has-text-white">Name:</label>
+									<div class="control">
+										<input id="fieldName" type="text" name="name" placeholder="Name">
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label has-text-white">Subject:</label>
+									<div class="control">
+										<input id="fieldSubject" type="text" name="inquiry" placeholder="Inquiry">
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label has-text-white">Message:</label>
+										<div class="control">
+											<textarea id="fieldBody" class="textarea" placeholder="Enter Message"></textarea>
+										</div>
+									</label>
+								</div>
+
+								<div class="control is-mobile">
+									<div class="columns">
+										<div class="column is-8">
+											<a id="contactSubmit" class="button">Submit</a>
+											<a id="contactReset" class="button">Reset</a>
+										</div>
+										<div class="column">
+
+											<a href="https://www.linkedin.com/in/corey-cushnie-73561171/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"></a>
+											<a href="https://github.com/CoreyCushnie" target="_blank"><img src="https://img.icons8.com/color/48/000000/github.png"></a>
+										</div>
+									</div>
+								</div> 
+								
+								
+								
+							</h1>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="hero-foot">
+			<div class='container is-fluid'>
+				<figure>
+					<img id="profileImage" src="https://i.ibb.co/P4CJYjj/Screen-Shot-2019-01-26-at-4-03-56-PM.png" alt="meImage" border="0">
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<script src="scripts/jq.js"></script>
+</body>
+</html>
