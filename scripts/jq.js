@@ -88,38 +88,6 @@ $(function(){
 
 	});
 
-	$("#proj1").mouseover(function(){
-		$("#proj1").attr('src', 'assets/proj1.gif');
-	});
-
-	$("#proj1").mouseout(function(){
-		$("#proj1").attr('src', 'assets/projimg.png');
-	});
-
-	$("#proj2").mouseover(function(){
-		$("#proj2").attr('src', 'assets/proj2.gif');
-	});
-
-	$("#proj2").mouseout(function(){
-		$("#proj2").attr('src', 'assets/proj2img.png');
-	});
-
-	$("#proj3").mouseover(function(){
-		$("#proj3").attr('src', 'assets/proj3.gif');
-	});
-
-	$("#proj3").mouseout(function(){
-		$("#proj3").attr('src', 'assets/proj3img.png');
-	});
-
-	$("#proj4").mouseover(function(){
-		$("#proj4").attr('src', 'assets/proj4.gif');
-	});
-
-	$("#proj4").mouseout(function(){
-		$("#proj4").attr('src', 'assets/proj4img.png');
-	});
-
 	$("#contactSubmit").click(function(){
 		var name = document.getElementById("fieldName").value;
 		var subject = document.getElementById("fieldSubject").value;
